@@ -15,6 +15,9 @@
 		18328B3520FD899200E54F9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18328B3420FD899200E54F9A /* main.m */; };
 		18328B3E20FD8A9100E54F9A /* JKAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18328B3D20FD8A9100E54F9A /* JKAlertViewController.m */; };
 		18328B4220FD8BAF00E54F9A /* JKAlertTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18328B4120FD8BAF00E54F9A /* JKAlertTransitionAnimator.m */; };
+		18B74F7D24289B6400F6E82F /* JKAlertOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B74F7C24289B6400F6E82F /* JKAlertOperationManager.m */; };
+		18B74F8024289D3100F6E82F /* View1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B74F7F24289D3100F6E82F /* View1Controller.m */; };
+		18B74F8324289D6800F6E82F /* View2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B74F8224289D6800F6E82F /* View2Controller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,12 @@
 		18328B3F20FD8AAC00E54F9A /* JKAlertEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKAlertEnum.h; sourceTree = "<group>"; };
 		18328B4020FD8BAF00E54F9A /* JKAlertTransitionAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKAlertTransitionAnimator.h; sourceTree = "<group>"; };
 		18328B4120FD8BAF00E54F9A /* JKAlertTransitionAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAlertTransitionAnimator.m; sourceTree = "<group>"; };
+		18B74F7B24289B6400F6E82F /* JKAlertOperationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKAlertOperationManager.h; sourceTree = "<group>"; };
+		18B74F7C24289B6400F6E82F /* JKAlertOperationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAlertOperationManager.m; sourceTree = "<group>"; };
+		18B74F7E24289D3100F6E82F /* View1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View1Controller.h; sourceTree = "<group>"; };
+		18B74F7F24289D3100F6E82F /* View1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View1Controller.m; sourceTree = "<group>"; };
+		18B74F8124289D6800F6E82F /* View2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View2Controller.h; sourceTree = "<group>"; };
+		18B74F8224289D6800F6E82F /* View2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View2Controller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +79,10 @@
 				18328B2620FD899000E54F9A /* AppDelegate.m */,
 				18328B2820FD899000E54F9A /* ViewController.h */,
 				18328B2920FD899000E54F9A /* ViewController.m */,
+				18B74F7E24289D3100F6E82F /* View1Controller.h */,
+				18B74F7F24289D3100F6E82F /* View1Controller.m */,
+				18B74F8124289D6800F6E82F /* View2Controller.h */,
+				18B74F8224289D6800F6E82F /* View2Controller.m */,
 				18328B2B20FD899000E54F9A /* Main.storyboard */,
 				18328B2E20FD899100E54F9A /* Assets.xcassets */,
 				18328B3020FD899100E54F9A /* LaunchScreen.storyboard */,
@@ -87,6 +100,8 @@
 				18328B3D20FD8A9100E54F9A /* JKAlertViewController.m */,
 				18328B4020FD8BAF00E54F9A /* JKAlertTransitionAnimator.h */,
 				18328B4120FD8BAF00E54F9A /* JKAlertTransitionAnimator.m */,
+				18B74F7B24289B6400F6E82F /* JKAlertOperationManager.h */,
+				18B74F7C24289B6400F6E82F /* JKAlertOperationManager.m */,
 			);
 			name = JKAlertKit;
 			path = ../JKAlertKit;
@@ -163,9 +178,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				18328B2A20FD899000E54F9A /* ViewController.m in Sources */,
+				18B74F7D24289B6400F6E82F /* JKAlertOperationManager.m in Sources */,
 				18328B3520FD899200E54F9A /* main.m in Sources */,
 				18328B3E20FD8A9100E54F9A /* JKAlertViewController.m in Sources */,
 				18328B2720FD899000E54F9A /* AppDelegate.m in Sources */,
+				18B74F8324289D6800F6E82F /* View2Controller.m in Sources */,
+				18B74F8024289D3100F6E82F /* View1Controller.m in Sources */,
 				18328B4220FD8BAF00E54F9A /* JKAlertTransitionAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
