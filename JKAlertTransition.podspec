@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
   s.source       = { :git => "https://github.com/JekinChou/JKAlertTransition.git", :tag => "#{s.version}" }
-  s.source_files = "JKAlertTransition/JKAlertKit/**/*.{h,m}"
+  s.source_files = "JKAlertKit/**/*.{h,m}"
 
 
 end
